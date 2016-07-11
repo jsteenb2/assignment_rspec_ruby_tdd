@@ -1,13 +1,7 @@
-class StockPicker
-  def initialize(array)
-    raise(ArgumentError) unless array.all? { |elem| elem.is_a?(Fixnum)}
-    @prices = array
-  end
+def pick_stocks
 
-  def pick_stocks
-
-    buy_tracker = 0
-    sell_tracker = 1
+    buy_tracker = nil
+    sell_tracker = nil
     
     max_profit = 0
     buy = 0
@@ -22,11 +16,10 @@ class StockPicker
           buy_tracker = buy
           sell_tracker = sell
         end
-
+        
         sell += 1
       end
       buy += 1
     end
     [buy_tracker, sell_tracker]
   end
-end
