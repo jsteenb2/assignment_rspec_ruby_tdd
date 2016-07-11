@@ -12,7 +12,7 @@ describe Anagrams do
       end
 
       it "returns the anagrams of hte first argument that are in teh dictionary" do
-        expect(subject.anagrams("looter", ["spooky, retool, rootle, tooler, toddler"])).to eq(["RETOOL", "ROOTLE", "TOOLER"])
+        expect(subject.anagrams("looter", %w[spooky retool rootle tooler toddler])).to eq(["RETOOL", "ROOTLE", "TOOLER"])
       end
   end
 end
