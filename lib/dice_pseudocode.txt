@@ -1,0 +1,20 @@
+# Game class
+  initializing the players
+    @dice
+    @human_player
+    @computer_player
+  game itself
+    # ask human for # of dice
+    loop
+      turns
+      who wins?
+      game_over?
+
+# Player
+  @wins
+  roll_dice
+
+# Computer < Player
+
+# Human < Player
+  get_input for game dice
