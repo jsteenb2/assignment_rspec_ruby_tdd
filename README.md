@@ -1,6 +1,7 @@
-Hannah Squier & Johnny Steenbergen
-
-assignment_rspec_ruby_tdd
+Test Driven Algo Designs
 =========================
 
-Test driven awesome.
+contributors: [Hannah Squier](https://github.com/hannahsquier) & [Johnny Steenbergen](https://github.com/jsteenb2)
+
+###Description
+A dive into designing algorithms with test driven development. 
